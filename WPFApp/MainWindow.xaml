@@ -14,8 +14,9 @@
 
         <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center">
             <Button x:Name="previousImageButton" Padding="15" Margin="15" Click="previousImageButton_Click">Previous</Button>
-            <Button x:Name="sunInformationButton" Padding="15" Margin="15" Click="sunInformationButton_Click">Sun Information</Button>
             <Button x:Name="nextImageButton" Padding="15" Margin="15" Click="nextImageButton_Click">Next</Button>
+            <Button x:Name="sunInformationButton" Padding="15" Margin="15" Click="sunInformationButton_Click">Sun Information</Button>
+            <Button x:Name="issLocationButton" Padding="15" Margin="15" Click="issLocationButton_Click">ISS Location</Button>
         </StackPanel>
 
         <Image Grid.Row="1" x:Name="comicImage" Margin="20"/>

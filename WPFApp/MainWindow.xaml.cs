@@ -87,5 +87,12 @@ namespace WPFApp
 
             sunInfo.Show();
         }
+
+        private void issLocationButton_Click(object sender, RoutedEventArgs e)
+        {
+            LocationInfo locationInfo = new LocationInfo();
+
+            locationInfo.Show();
+        }
     }
 }
